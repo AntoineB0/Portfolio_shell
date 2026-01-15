@@ -74,7 +74,8 @@ $(document).ready(async function() {
                     term.pop();
                     term.clear();
                     term.echo(banner);
-                    term.echo('[[;#888888;]💡 Tapez \'help\' pour voir les commandes disponibles]');
+                    term.echo('');
+                    term.echo(commands.help());
                     term.set_prompt('[[;#00ff00;]visitor@portfolio][[;#ffffff;]:~$] ');
                 }, {
                     prompt: '',
