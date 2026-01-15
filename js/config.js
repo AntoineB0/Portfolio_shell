@@ -34,6 +34,18 @@ travailler en équipe et à livrer des solutions adaptées aux besoins industrie
 
     projects: [
         {
+            name: "CrabKV",
+            description: "CrabKv est un moteur clé-valeur Rust léger inspiré de LevelDB. mise en cache, un TTL et un interface TCP.",
+            tech: ["Rust", "TCP", "Key-Value Store"],
+            link: "https://github.com/AntoineB0/CrabKV"
+        },
+        {
+            name: "RsHash",
+            description: "RsHash est une librairie de hachage écrite en Rust, utilisable depuis Python, qui fournit les algorithmes SHA-256 et SHA-512 selon la spécification FIPS 180-4.",
+            tech: ["Rust", "Python", "Cryptography"],
+            link: "https://github.com/AntoineB0/RsHash"
+        },
+        {
             name: "Projet - Visualisation GitLab XLIM",
             description: "Développement d'une interface web open source d'analyse statistique de l'utilisation de la forge logicielle GitLab du laboratoire XLIM.",
             tech: ["Python", "JavaScript", "Django", "Chart.js", "GitLab"]
@@ -62,10 +74,10 @@ travailler en équipe et à livrer des solutions adaptées aux besoins industrie
 
     experience: [
         {
-            title: "Developpeur Back-end",
+            title: "Developpeur Full-Stack ",
             company: "Lacaux Frères",
             period: "2025-2026",
-            description: ""
+            description: "Développement full-stack de fonctionnalités web au sein de l’ERP interne de la Papeterie Cartonnerie Lacaux (React / Node.js). L’alternance s’inscrit dans un contexte de proximité forte avec les utilisateurs métiers, avec un recueil direct des besoins, l’analyse des processus existants et la traduction de ces demandes en applications et outils concrets."
         },
         {
             title: "Développeur Stagiaire",
@@ -136,14 +148,16 @@ export const cvData = `
 [[b;#ffaa00;]║][[;#cccccc;]  – Développement d'un code open source pour l'analyse de la forge GitLab]
 [[b;#ffaa00;]║][[;#cccccc;]  – Python, JavaScript, Chart.js, GitLab]
 [[b;#ffaa00;]╟────────────────────────────────────────────────────────────────────────────────────────────────╢]
-[[b;#ffaa00;]║][[b;#ffaa00;] PROJET ACADEMIQUE]
+[[b;#ffaa00;]║][[b;#ffaa00;] PROJET PERSONNEL ET ACADEMIQUE]
+[[b;#ffaa00;]║][[;#cccccc;]  – CrabKV: Moteur clé-valeur Rust léger inspiré de LevelDB avec cache, TTL et interface TCP]
+[[b;#ffaa00;]║][[;#cccccc;]  – RsHash: Librairie de hachage Rust (SHA-256, SHA-512) utilisable depuis Python]
 [[b;#ffaa00;]║][[;#cccccc;]  – Application d'atelier POC (Legrand): JS, VueJS, Node.js, SQL Server, Figma, AGILE]
 [[b;#ffaa00;]║][[;#cccccc;]  – Jeu de Scrabble en Java, JavaFX]
 [[b;#ffaa00;]║][[;#cccccc;]  – Simulation réseau CHU, configuration pare-feu]
 [[b;#ffaa00;]╟────────────────────────────────────────────────────────────────────────────────────────────────╢]
 [[b;#ffaa00;]║][[b;#ffaa00;] COMPÉTENCES ET INTÉRÊTS]
 [[b;#ffaa00;]║][[b;#00aaff;] Passions:][[;#cccccc;] Automobile (sportif/mécanique), horlogerie, randonnée]
-[[b;#ffaa00;]║][[b;#00aaff;] Langues:][[;#cccccc;] Français (natif), Anglais (B2/C1), Espagnol (A2), Norvégien (A1)]
+[[b;#ffaa00;]║][[b;#00aaff;] Langues:][[;#cccccc;] Français (natif), Anglais (B2/C1), Espagnol (A2)]
 [[b;#ffaa00;]║][[b;#00aaff;] Soft skills:][[;#cccccc;] Créativité, résilience, initiative, collaboration, adaptabilité]
 [[b;#ffaa00;]╚════════════════════════════════════════════════════════════════════════════════════════════════╝]
 `;

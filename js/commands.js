@@ -19,7 +19,7 @@ export function createCommands() {
   [[;#00ff00;]projects]       Affiche mes projets
   [[;#00ff00;]experience]     Montre mon expérience professionnelle
   [[;#00ff00;]education]      Affiche ma formation
-  [[;#00ff00;]cv]             Télécharge mon CV 
+  [[;#00ff00;]cv]             Visualise mon CV 
   [[;#00ff00;]contact]        Informations de contact
   [[;#00ff00;]social]         Liens vers mes réseaux sociaux
   [[;#00ff00;]theme]          Change le thème du terminal
