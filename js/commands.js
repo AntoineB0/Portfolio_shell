@@ -16,7 +16,6 @@ export function createCommands() {
 
   [[;#00ff00;]about]          Affiche les informations à propos de moi
   [[;#00ff00;]skills]         Liste mes compétences techniques
-  [[;#00ff00;]hardskills]     Détail de mes compétences techniques par catégorie
   [[;#00ff00;]softskills]     Mes soft skills avec explications détaillées
   [[;#00ff00;]projects]       Affiche mes projets
   [[;#00ff00;]experience]     Montre mon expérience professionnelle
