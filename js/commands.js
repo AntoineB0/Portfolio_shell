@@ -1,4 +1,4 @@
-import { config, portfolioData, banner, themes, cvData } from './config.js';
+import { config, portfolioData, banner, themes, cvData, hardSkillsData, softSkillsData } from './config.js';
 import { wrapText, applyTheme, getOSInfo, getBrowserInfo } from './utils.js';
 
 // Variable globale pour stocker l'IP
@@ -16,6 +16,8 @@ export function createCommands() {
 
   [[;#00ff00;]about]          Affiche les informations à propos de moi
   [[;#00ff00;]skills]         Liste mes compétences techniques
+  [[;#00ff00;]hardskills]     Détail de mes compétences techniques par catégorie
+  [[;#00ff00;]softskills]     Mes soft skills avec explications détaillées
   [[;#00ff00;]projects]       Affiche mes projets
   [[;#00ff00;]experience]     Montre mon expérience professionnelle
   [[;#00ff00;]education]      Affiche ma formation
@@ -157,6 +159,20 @@ Suivez-moi pour voir mes derniers projets et articles !`;
 
         neofetch: function() {
             return this.fastfetch();
+        },
+
+        softskills: function() {
+            let output = `[[;#44ff44;]SOFT SKILLS - COMPÉTENCES COMPORTEMENTALES]\n\n`;
+            
+            softSkillsData.forEach((skill, index) => {
+                output += `[[b;#00aaff;]${skill.name}]\n`;
+                output += `${wrapText(skill.description, 85, '')}\n\n`;
+            });
+            
+            output += `[[;#888888;]Ces soft skills sont le fruit de mes expériences professionnelles,]\n`;
+            output += `[[;#888888;]académiques et personnelles, et continuent de se développer au quotidien.]`;
+            
+            return output;
         },
 
         theme: function(terminal) {

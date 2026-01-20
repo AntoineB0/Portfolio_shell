@@ -27,7 +27,7 @@ travailler en équipe et à livrer des solutions adaptées aux besoins industrie
     skills: {
         "Langages": ["Java", "Kotlin", "Python", "C++", "JavaScript", "PHP", "HTML/CSS", "SQL"],
         "Frontend": ["Vue.js", "JavaFX", "Chart.js", "Figma"],
-        "Backend": ["Node.js", "Express", "Django"],
+        "Backend": ["Node.js", "Express"],
         "Base de données": ["SQL Server", "PostgreSQL", "MongoDB"],
         "Outils": ["Git", "GitLab", "Docker", "VS Code", "Postman", "Agile/Scrum"]
     },
@@ -48,7 +48,7 @@ travailler en équipe et à livrer des solutions adaptées aux besoins industrie
         {
             name: "Projet - Visualisation GitLab XLIM",
             description: "Développement d'une interface web open source d'analyse statistique de l'utilisation de la forge logicielle GitLab du laboratoire XLIM.",
-            tech: ["Python", "JavaScript", "Django", "Chart.js", "GitLab"]
+            tech: ["Python", "JavaScript", "Chart.js", "GitLab"]
         },
         {
             name: "Projet Universitaire - Application POC Legrand",
@@ -105,6 +105,34 @@ travailler en équipe et à livrer des solutions adaptées aux besoins industrie
         }
     ]
 };
+
+// Soft Skills avec explications basées sur l'expérience
+export const softSkillsData = [
+    {
+        name: "Initiative",
+        description: "Durant mon stage et actuellement mon alternance chez Lacaux Frères, je propose régulièrement des améliorations aux processus existants et n'hésite pas à suggérer de nouvelles fonctionnalités qui pourraient bénéficier aux utilisateurs métiers."
+    },
+    {
+        name: "Collaboration",
+        description: "Durant le projet Legrand, j'ai collaboré efficacement avec mes pairs en méthode Agile, participant activement aux stand-ups, rétrospectives et code reviews. Mon expérience en alternance renforce quotidiennement ma capacité à communiquer avec des profils variés (développeurs, utilisateurs métiers, managers)."
+    },
+    {
+        name: "Créativité",
+        description: "Ma créativité transparaît dans ma façon d'aborder les problèmes techniques.Mes projets personnels comme CrabKV montrent ma volonté d'explorer de nouvelles technologies (Rust) et d'implémenter des solutions originales."
+    },
+    {
+        name: "Adaptabilité",
+        description: "Mon parcours témoigne d'une grande capacité d'adaptation : je jongle entre différentes technologies (Java, Python, Rust, JavaScript) et différents domaines (frontend, backend, infrastructure). Durant mon alternance, je m'adapte rapidement aux besoins changeants des utilisateurs et aux contraintes techniques de l'ERP."
+    },
+    {
+        name: "Résilience",
+        description: "Face aux défis techniques complexes, je fais preuve de persévérance. Que ce soit lors du développement de RsHash (intégration Rust/Python) ou de la résolution de bugs critiques en production chez Lacaux."
+    },
+    {
+        name: "Analyse et Résolution de Problèmes",
+        description: "Ma formation a aiguisé ma capacité d'analyse. Chez Lacaux , je collecte les besoins métiers, j'analyse les processus existants et je traduis ces informations en solutions techniques cohérentes. Cette approche méthodique me permet de décomposer des problèmes complexes en étapes réalisables."
+    }
+];
 
 // ASCII Art pour le banner
 export const banner = `
