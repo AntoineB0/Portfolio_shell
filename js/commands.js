@@ -1,4 +1,4 @@
-import { config, portfolioData, banner, themes, cvData, hardSkillsData, softSkillsData } from './config.js';
+import { config, portfolioData, banner, themes, cvData, softSkillsData } from './config.js';
 import { wrapText, applyTheme, getOSInfo, getBrowserInfo } from './utils.js';
 
 // Variable globale pour stocker l'IP
